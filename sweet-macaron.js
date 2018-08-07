@@ -25,7 +25,7 @@
 	if (window.location.pathname === 'index.html') {
        carousal();
 	}
-	if (window.location.pathname === '/SweetMacaron/index.html') {
+	if (window.location.pathname == '/SweetMacaron/index.html') {
        carousal();
 	}
 	
