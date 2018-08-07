@@ -1,0 +1,1048 @@
+@charset "utf-8";
+
+/*resets margin and padding styles of browsers*/
+
+* {
+    margin: 0;
+    padding: 0;	
+}
+
+/*default styles are for mobile */
+
+/*---- Body Styles ----*/
+
+body {
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 1em;
+	width: 100%;
+}
+body header img {
+	width: 50%;
+}
+
+
+h1 {
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+    font-size: 2em;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+}
+h2 {
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+}
+
+header {
+	width: 100%;	
+}
+
+/*slideshow*/
+
+.image-slide {
+	display: none;
+	width: 100%;
+}
+/* below used in slideshow JS */
+
+#image-slide-display {
+	display: block;
+}
+
+/*---- About Page Styles ----*/
+
+#about-photo-credit {
+	color: rgb(255, 255, 255);
+	font-size: .6em;
+	text-align: center;
+}
+
+#about-photo-credit a {
+	color: rgb(255, 255, 255);
+}
+
+#about-photo-credit a:visisted {
+	color: rgb(255, 255, 255);
+}
+
+.about-bottom {
+	font-size: .9em;
+	padding: 5% 5% 0 5%;
+	text-align: left;
+}
+
+#about-section{
+	background-color: rgb(249, 242, 214);
+}
+
+#bottom-p-about {
+	padding-bottom: 8%;
+}
+
+#our-story {
+	font-size: 1.2em;
+	padding: 5% 5% 0 5%;
+	text-align: left;
+}
+
+#text-image {
+	color: rgb(255, 255, 255);
+	font-size: 1.5em;
+	margin: 0 auto;
+	text-align: center;
+	width: 95%;
+}
+
+#top-p-about {
+	padding-top: 2%;
+}
+
+#top-about-section {
+	background-image: url("sweet-macaron-images/about-page-images/blue-piped-macarons.jpg");
+    background-repeat: no-repeat;
+	background-size: cover;
+	padding: 15% 0;
+	width: 100%;
+}
+
+/*---- Contact Page Styles ----*/
+
+/*ASIDE AND ACTIVE LOCATION FIXES CONTENT */
+
+/*visit us list*/
+
+aside {
+	display: block;
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+	text-align: center; 
+	width: 90%;
+}
+
+
+aside h2 {
+	margin-top: 5%;
+	vertical-align: top;
+}
+
+aside ul li {
+	list-style-type: none;
+	margin: 8% 0;
+}
+
+aside ul li a {
+	color: rgb(109, 65, 87);
+	text-decoration: none;
+}
+
+
+aside ul li a:hover {
+	background-color: rgb(249, 242, 214);
+	border-radius: 8px;
+	padding: 2%;
+}
+
+aside ul li a:visited {
+	color: rgb(109, 65, 87);
+}
+
+/*contact us text */
+
+#contact-content {
+	margin: 5% auto;
+	width: 90%;
+}
+
+#contact-intro {
+	background-color: rgb(249, 242, 214);
+	padding: 5% 5%;	
+}
+
+#contact-p {
+	margin: 0 auto;
+	padding-bottom: 4%;
+	padding-top: 4%;
+	width: 90%;
+}
+
+hr {
+	border: 1px solid rgb(160, 94, 127);
+	margin: 0 auto;
+	width: 220px;
+}
+
+/*store info displayed*/
+
+.location-info {
+	padding-bottom: 10%;
+}
+
+.location-info li{
+	list-style-type: none;
+	margin-top: 8%;
+	
+}
+
+/*image at the top of contact us*/
+
+#macarons-counter {
+	display: block;
+	width: 100%;
+}
+
+
+
+/*classes used for js in contact pg 
+Current locatoin info and current tab selected*/
+
+.active-location {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+
+.active-location h2 {
+	margin-top: 5%;
+}
+
+.active-location-tab {
+	background-color: rgb(249, 242, 214);
+	border-radius: 8px;
+	padding: 2%;
+}
+
+.hidden-location {
+	display: none;
+}
+
+.non-active-location-tab {
+	
+}
+
+/*---- Home Page Styles ----*/
+
+/*bottom vertical image*/ 
+
+#bottom-img {
+	display: block;
+	width: 100%;
+}
+
+/*what is a macaron? content*/ 
+
+#bottom-left {
+    background-color: rgb(249, 242, 214);
+    font-size: .9em;
+    padding: 5%;
+	width: 90%;
+}
+
+.credit-div {
+	font-size: .6em;
+	padding-bottom: 1%;
+	padding-left: 3%;
+	padding-right: 3%;
+	text-align: center;
+}
+
+#display-credit-home{
+	font-size: .6em;
+	text-align: center;
+}
+
+/*welcome! and intro content*/
+
+#first-section {
+	background-color: rgb(245, 216, 232);
+    font-size: .9em;
+	padding-bottom: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	width: 90%;
+}
+
+#first-section h1 {
+	padding-top: 5%;
+}
+
+#logo {
+	margin-left: auto;
+    margin-right: auto;
+	max-width: 180px;
+	min-width: 130px;
+	width: 40%;
+}
+
+#logo-container {
+	display: inline;
+}
+
+#non-display-credit-home{
+	display: none;
+}
+
+section {
+	text-align: center;
+}
+
+#special-offer {
+	font-size: .8em;
+	margin: 0 5%;
+	padding-bottom: 3%;
+	text-align: center;
+	width: 90%;
+}
+
+/*---- Footer Styles ----*/
+
+footer {
+	background-color: rgb(160, 94, 127);
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 2%;
+	text-align: center;
+	width: 100%;
+}
+
+
+
+#social-fb{
+	margin-left: 15%;
+	margin-right: 15%;
+	max-width: 35px;
+}
+
+.social-media {
+	display: inline-block;
+	padding-bottom: 5%;
+	padding-top: 8%;
+	vertical-align: top;
+	width: 100%;
+}
+
+.twit-insta {
+	max-width: 35px;
+}
+
+/*---- Menu Page Styles ----*/
+
+/*menu back to top button*/
+
+.attribution {
+	font-size: .6em;
+}
+
+#back-to-top {
+	background-color: rgb(255, 255, 255);
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 10px 10px;
+	font-size: 1.1em;
+	padding: 2%;
+	position: fixed;
+    bottom: 20px; 
+	right: 0;
+}
+
+#back-to-top:visited{
+	color: rgb(0, 0, 0);
+}
+
+figcaption {
+	font-size: .85em;
+	margin: 3% auto;
+	width: 90%;
+}
+
+figure img {
+	width: 100%;
+}
+
+#gluten, #note {
+	font-size: .78em;
+	font-weight: bold;
+}
+
+#intro {
+    font-size: .9em;
+	margin: 0 auto;
+	padding-bottom: 5%;
+	width: 90%;
+}
+
+#last-figcaption {
+	margin-bottom: 8%;
+}
+
+#top-section-menu {
+    background-color: rgb(245, 216, 232);	
+	margin-bottom: 3%;
+	margin-left: 3%;
+	margin-right: 3%;
+	padding-bottom: 5%;
+	padding-top: 5%;
+}
+ 
+/*---- Navigation Styles ----*/
+
+a {
+	color: rgb(0, 0, 0);
+}
+
+a:visited {
+	color: rgb(109, 65, 87);
+}
+
+.current-tab {
+	background-color: rgb(249, 242, 214);
+	border-radius: 10px;
+	padding: 3%;
+}
+
+#icon-container {
+	cursor: pointer;
+	display: inline-block;
+	margin: 20% 0 0 25%;
+	width: 100%;
+}
+
+#menu-invisible {
+	display: none;
+}
+
+#menu-visible {
+	background: white;
+	display: block;
+	list-style: none;
+	padding: 5% 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+nav  {
+	float: left;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	width: 25%;
+}
+
+nav ul li {
+	list-style: none;
+	margin: 6% 0;
+	padding: 2% 2%;
+	text-align: center;
+}
+
+
+nav ul li a {
+	color: rgb(109, 65, 87);
+	font-size: 1.3em;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	background-color: rgb(249, 242, 214);
+	border-radius: 10px;
+	padding: 3%;
+}
+
+nav ul li a:visited {
+	color: rgb(109, 65, 87);
+}
+
+/*---- Navigatoinal Styles: Hamburger Icon and Transformation to X ----*/
+
+#bar1, #bar2, #bar3 {
+	background-color: rgb(0, 0, 0);
+	height: 4px;
+	margin: 4px 0;
+	max-width: 24%;
+	min-width: 20px;
+	position: relative;
+	transition: 0.4s;
+	width: 18%;
+	z-index: 1;
+}
+
+.change #bar1 {
+	-moz-transform: rotate(-45deg) translate(-10px, 5px);
+	-ms-transform: rotate(-45deg) translate(-10px, 5px);
+	-webkit-transform: rotate(-45deg) translate(-10px, 5px);
+	transform: rotate(-45deg) translate(-10px, 5px);
+	
+}
+
+.change #bar2 {
+	opacity: 0;
+}
+
+.change #bar3 {
+	-moz-transform: rotate(45deg) translate(-6px, -2px);
+	-ms-transform: rotate(45deg) translate(-6px, -2px);
+	-webkit-transform: rotate(45deg) translate(-6px, -2px);
+	transform: rotate(45deg) translate(-6px, -2px);
+}
+
+/*---- Prices Section of Menu Page Styles ----*/
+
+.box-prices {
+	list-style: none;
+	margin-bottom: 2%;
+	margin-left: 13%;
+	text-align: left;
+}
+
+#box-sets {
+	display: inline-block;
+	margin-top: 3%;
+}
+
+#prices-header {
+	font-size: 1.7em;
+}
+
+#prices-section {
+    background-color: rgb(249, 242, 214);
+	margin: 0 3% 2% 3%;
+	padding: 5% 0;
+}
+
+#single-prices {
+	list-style: none;
+	text-align: left;
+}
+
+@media only screen and (max-width: 260px) {
+   	hr {
+		width: 200px;
+	}
+}
+
+@media only screen and (max-width: 368px) {
+    .active-location {
+	    padding-top: 2%;
+    }
+}
+
+@media only screen and (min-width: 369px) {
+
+    #about-photo-credit {
+	    float: right;
+	    padding-right: 4%;
+		padding-top: 10%;
+    }
+}
+
+@media screen and (min-width: 256px) and (max-width: 309px) {
+	
+/*---- Home Page Styles ----*/
+	
+	#logo {
+	    margin-left: 3%;
+    }
+}
+
+@media only screen and (min-width: 310px) and (max-width: 477px) {
+	
+/*---- Home Page Styles ----*/
+	
+	#logo {
+	    margin-left: 5%;
+    }
+}
+
+@media only screen and (min-width: 478px) and (max-width: 540px) {
+	
+/*---- Home Page Styles ----*/
+	
+	#logo {
+		margin-left: 9%;
+    }
+}
+
+@media only screen and (min-width: 461px) {
+	
+/*---- Contact page Styles ----*/
+
+    .location-info li{
+	    margin-top: 3%;
+    }	
+	
+/*---- Home Page Styles ----*/
+
+/*Start of Margins Around Content*/
+	
+/*bottom vertical image*/ 
+
+    #bottom-img {
+	    margin: 0 auto;
+		width: 90%;
+    }
+	
+/*what is a macaron? content*/
+ 
+    #bottom-left {
+        margin: 0 5%;
+	    margin-bottom: 5%;
+	    width: 80%;
+    }
+
+/*welcome! and intro content*/
+
+    #first-section {
+	    margin: 0 5%;
+        width: 80%;
+	}
+
+/*slideshow*/
+    .image-slide {
+	    margin: 0 auto;
+	    width: 90%;
+    }
+
+/*---- Menu Page Styles ----*/
+
+    figcaption {
+	    margin: 0 auto;
+	    padding-bottom: 3%;
+	    padding-top: 1%;
+    }
+	
+	figure img {
+	    width: 70%;
+    }
+
+    #intro {
+	    padding-bottom: 1%;
+    }
+
+    #prices-section {
+	    margin-left: auto;
+	    margin-right: auto;
+	    width: 80%;
+    }
+	
+	#top-section-menu {
+	    margin-left: auto;
+	    margin-right: auto;
+	    width: 80%;
+    }
+}
+
+@media only screen and (min-width: 600px)  {
+	
+/*---- Home Page Styles ----*/
+
+/*bottom vertical image*/ 
+
+    #bottom-img {
+	    width: 70%;
+	}
+	
+/*what is a macaron? content*/ 
+
+    #bottom-left {
+	    margin-left: auto;
+	    margin-right: auto;
+	    width: 60%;
+	}
+
+/*welcome! and intro content*/
+
+    #first-section {
+	    margin: 0 auto;
+        width: 60%;	
+    }
+	
+/*slideshow*/
+    .image-slide {
+	    width: 70%;
+    }
+}
+
+@media only screen and (min-width: 541px) and (max-width: 660px) {
+	
+/*---- Home Page Styles ----*/
+	
+	#logo {
+	    margin-left: 11%;
+    }
+}
+
+@media only screen and (min-width: 661px) and (max-width: 785px) {
+	
+/*---- Home Page Styles ----*/
+	
+	#logo {
+	    margin-left: 13%;
+    }
+}
+
+@media only screen and (min-width: 786px) {
+	
+/*---- Contact Page Styles ----*/
+	
+/*turns location tabs to be horizontal*/
+	
+	.active-location h2 {
+  		margin-top: 2%;
+	}
+	
+	.active-location-tab {
+		border-radius: 8px;
+		padding: 6%;
+	}
+	
+    aside ul li {
+	    display: inline-block;
+		margin: 6% 0;
+		width: 26%;
+	}
+	
+	aside ul li a:hover {
+		border-radius: 8px;
+		padding: 6%;
+	}
+	
+    #contact-intro {
+	    margin: 0 auto;
+	    width: 70%;
+    }
+	
+    .location-info li{
+	    margin-top: 2%;
+    }
+
+    #macarons-counter {
+	    margin: 0 auto;
+	    width: 80%;
+    }
+
+/*---- Menu Page Styles ----*/
+    figure img {
+	    width: 50%;
+    }
+	
+/*---- Navigation Styles Desktop ----*/
+	
+	#icon-container {
+		display: none;
+	}
+	
+	#logo {
+		width: 100%;
+	}
+	
+	#logo-container {
+		display: block;
+		text-align: center;
+	}
+	
+	#menu-invisible {
+	    display: block;
+	    list-style: none;
+	    position: relative;
+	    text-align: center;
+	    width: 100%;
+	}
+	
+	nav {
+		float: none;
+		margin: 0 auto;
+		width: 95%;
+	}
+	
+	nav ul li {
+		display: inline-block;
+		margin: 2% 0;
+		padding: 0;
+		width: 20%;
+	}
+	
+	nav ul li a {
+		font-size: 1.2em;
+	}
+	
+	#special-offer {
+		margin-top: 3%;
+	}
+}
+
+@media only screen and (min-width: 955px) {
+	
+/*---- About Page Styles ----*/
+	
+    .about-bottom {
+	    font-size: 1em;
+	    margin: 0 auto;
+	    padding: 3% 0 0 0;
+	    width: 60%;
+    }
+
+    #our-story {
+	    margin: 0 auto;
+	    padding: 5% 0 0 0;
+	    width: 60%;
+    }
+	
+/*---- Home Page Styles ----*/
+	
+/*bottom vertical image*/
+
+	#bottom-img {
+		width: 100%;
+	}
+	
+/*what is a macaron? content*/ 
+	
+	#bottom-left {
+		margin-bottom: 5%;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: left;
+		width: 60%;	
+	}
+	
+	#bottom-right {
+		width: 60%;	
+	} 
+	
+/*welcome! and intro content*/
+
+	#first-section {
+		text-align: left;
+		vertical-align: top;
+		width: 60%;
+	}
+     
+	 #first-section h1 {
+	    padding-top: 20%;
+    }
+	
+	#first-section p {
+		padding-top: 3%;
+	}
+	
+	.image-slide {
+		width: 70%;
+	}
+	
+	.social-media {
+	    padding-bottom: 2%;
+	    padding-top: 5%;
+    }
+	
+	#top-sections-div {
+	    display: -ms-flex;
+	    display: -webskit-flex;
+        display: flex;
+	    margin: 0 auto;
+	    width: 70%;
+	}
+
+/*--- Menu Page Styles ---*/
+	
+	 #prices-section {
+	    padding: 3% 0;
+	    width: 70%;
+    }
+	
+    #top-section-menu {
+	    width: 70%;
+    }
+}
+
+@media only screen and (min-width: 1019px) {
+	
+/*---- Contact Page Styles ----*/
+	
+	aside ul li {
+		margin: 6% 0;
+    }
+	
+/*---- Home Page Styles ----*/
+	
+/*what is a macaron? content*/ 
+
+	#bottom-left {
+		font-size: 1em;	
+	}
+	
+	#bottom-left h2 {
+		padding-bottom: 2%;
+	}
+	
+/*welcome! and intro content*/
+
+	#first-section {
+		font-size: 1em;
+		padding-left: 4%;
+		padding-right: 4%;
+	}
+	
+/*---- navigation Styles ----*/
+	
+	nav ul li {
+		width: 17%;	
+	}
+}
+
+@media only screen and (min-width: 1100px) {
+	
+/*---- Contact Page Styles ----*/
+
+    aside ul li {
+	    width: 25%;
+    }
+	
+    #contact-content {
+	    margin-top: 2%;
+	    width: 60%;
+    }
+	
+    #contact-intro {
+	    padding: 2% 2%;
+	    width: 66%;
+    }
+
+    #contact-p {
+	    width: 72%;
+    }
+
+    #macarons-counter {
+	    width: 70%;
+    }
+}
+
+@media only screen and (min-width: 1205px) {
+	
+/*---- Home Page Styles ----*/
+	
+/*what is a macaron? content*/ 
+
+	#bottom-left {
+		font-size: 1.1em;	
+	}
+	
+	#bottom-left p {
+		margin: 0 auto;
+		width: 80%;
+	}
+	
+/*welcome! and intro content*/
+
+	#first-section {
+		font-size: 1.1em;
+	}
+	
+	#special-offer {
+		font-size: .9em;
+		padding-bottom: 2%;
+	}
+	
+/*--- Menu Page Styles ---*/
+	
+	figure img {
+	    width: 35%;
+    }
+
+	 #prices-section {
+	    width: 45%;
+
+    }
+	
+    #top-section-menu {
+	    width: 45%;
+	
+    }
+}
+
+@media only screen and (min-width: 1250px) {
+	
+/*---- Menu Page Styles ----*/
+
+	#top-section-menu {
+        padding-bottom: 3%;
+	    padding-top: 3%;
+	}
+	
+/*---- Home Page Styles ----*/
+	
+/*what is a macaron? content*/ 
+
+	#bottom-left {
+		font-size: 1.15em;	
+	}
+	
+/*welcome! and intro content*/
+
+	#first-section {
+		font-size: 1.15em;
+	}
+	
+	#first-section h1 {
+		padding-top: 23%;
+	}
+	
+	#first-section p {
+		margin: 0 auto;
+		width: 85%;
+	}
+	
+    .social-media {
+	    padding-top: 4%;
+    }
+
+/*---- About Page Styles ----*/
+
+    #top-about-section {
+	    padding: 13% 0;
+    }
+}
+
+@media only screen and (min-width: 1450px) {
+	
+/*---- About Page Styles ----*/
+	
+    .about-bottom {
+	    width: 50%;
+    }
+	
+	#our-story { 
+	    margin: 0 auto;
+	    width: 50%;
+    }
+
+/*---- Contact Page Styles ----*/
+	
+    #contact-intro {
+	    width: 56%;
+    }
+
+    #macarons-counter {
+	    width: 60%;
+    }
+}
+
+@media only screen and (min-width: 1645px) {
+	
+/*---- Home Page Styles ----*/
+
+/*what is a macaron? content*/ 
+
+	#bottom-left p {
+		width: 70%;
+	}
+	
+	#first-section h1 {
+		padding-top: 28%;
+	}
+}
+
