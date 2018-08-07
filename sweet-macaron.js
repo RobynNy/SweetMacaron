@@ -1,6 +1,6 @@
 (function() {
 	
-	/* CHANGE THINGS TO CONST IF NOT REASSIGNED or IF NOT i++*/
+	
 	
 	/* Div credit photos on menu page */
 	 let attributionDiv = document.getElementsByClassName('attribution');
@@ -17,7 +17,6 @@
 	 
 	/* Automatic changing slideshow */
 	
-	/* Change window.location.pathname = /index.html when website is uploaded and check it works on home page */
 	
 	let slideIndex = 0;
 	if (window.location.pathname === '/G:/Dreamweaver%20Projects/sweet-macaron-2018/index.html') {
