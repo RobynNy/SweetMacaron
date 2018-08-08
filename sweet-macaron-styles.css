@@ -22,7 +22,6 @@ body header img {
 	width: 50%;
 }
 
-
 h1 {
 	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
     font-size: 2em;
@@ -30,6 +29,7 @@ h1 {
 	text-align: center;
 	width: 100%;
 }
+
 h2 {
 	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
 	margin: 0 auto;
@@ -55,6 +55,12 @@ header {
 
 /*---- About Page Styles ----*/
 
+.about-bottom {
+	font-size: .9em;
+	padding: 5% 5% 0 5%;
+	text-align: left;
+}
+
 #about-photo-credit {
 	color: rgb(255, 255, 255);
 	font-size: .6em;
@@ -67,12 +73,6 @@ header {
 
 #about-photo-credit a:visisted {
 	color: rgb(255, 255, 255);
-}
-
-.about-bottom {
-	font-size: .9em;
-	padding: 5% 5% 0 5%;
-	text-align: left;
 }
 
 #about-section{
@@ -97,10 +97,6 @@ header {
 	width: 95%;
 }
 
-#top-p-about {
-	padding-top: 2%;
-}
-
 #top-about-section {
 	background-image: url("sweet-macaron-images/about-page-images/blue-piped-macarons.jpg");
     background-repeat: no-repeat;
@@ -109,9 +105,13 @@ header {
 	width: 100%;
 }
 
+#top-p-about {
+	padding-top: 2%;
+}
+
 /*---- Contact Page Styles ----*/
 
-/*ASIDE AND ACTIVE LOCATION FIXES CONTENT */
+/*aside and .active-location changes content placement */
 
 /*visit us list*/
 
@@ -124,7 +124,6 @@ aside {
 	text-align: center; 
 	width: 90%;
 }
-
 
 aside h2 {
 	margin-top: 5%;
@@ -140,7 +139,6 @@ aside ul li a {
 	color: rgb(109, 65, 87);
 	text-decoration: none;
 }
-
 
 aside ul li a:hover {
 	background-color: rgb(249, 242, 214);
@@ -197,9 +195,8 @@ hr {
 }
 
 
-
 /*classes used for js in contact pg 
-Current locatoin info and current tab selected*/
+current location info and current tab selected*/
 
 .active-location {
 	display: block;
@@ -222,9 +219,7 @@ Current locatoin info and current tab selected*/
 	display: none;
 }
 
-.non-active-location-tab {
-	
-}
+.non-active-location-tab {} /*used in js file*/
 
 /*---- Home Page Styles ----*/
 
@@ -310,8 +305,6 @@ footer {
 	text-align: center;
 	width: 100%;
 }
-
-
 
 #social-fb{
 	margin-left: 15%;
@@ -532,7 +525,6 @@ nav ul li a:visited {
 }
 
 @media only screen and (min-width: 369px) {
-
     #about-photo-credit {
 	    float: right;
 	    padding-right: 4%;
@@ -662,6 +654,7 @@ nav ul li a:visited {
     }
 	
 /*slideshow*/
+
     .image-slide {
 	    width: 70%;
     }
@@ -726,6 +719,7 @@ nav ul li a:visited {
     }
 
 /*---- Menu Page Styles ----*/
+
     figure img {
 	    width: 50%;
     }
@@ -822,7 +816,7 @@ nav ul li a:visited {
 		width: 60%;
 	}
      
-	 #first-section h1 {
+	#first-section h1 {
 	    padding-top: 20%;
     }
 	
@@ -849,7 +843,7 @@ nav ul li a:visited {
 
 /*--- Menu Page Styles ---*/
 	
-	 #prices-section {
+	#prices-section {
 	    padding: 3% 0;
 	    width: 70%;
     }
@@ -953,7 +947,7 @@ nav ul li a:visited {
 	    width: 35%;
     }
 
-	 #prices-section {
+	#prices-section {
 	    width: 45%;
 
     }
