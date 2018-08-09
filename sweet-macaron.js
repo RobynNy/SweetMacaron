@@ -20,7 +20,7 @@
 	if (window.location.pathname === '/G:/portfolio-projects/sweet-macaron-2018/index.html') {
        carousal();
 	}
-	if (window.location.pathname === 'index.html' || '/SweetMacaron/index.html') {
+	if (window.location.pathname === '/SweetMacaron/index.html') {
        carousal();
 	}
 	
